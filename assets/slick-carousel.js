@@ -112,6 +112,8 @@ $(document).ready(function() {
     // Open the email client
     window.location.href = mailtoLink;
 });
+
+
   
 });
 

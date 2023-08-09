@@ -1,0 +1,146 @@
+.tech_stacks_container{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px!important;
+}
+.first_batch{
+
+    width: 100%;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.second_batch{
+    width: 100%;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.item{
+    margin: 10px;
+    border-radius: 90%;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+.item img{
+   
+    width: 100%;
+    height: 100%
+    
+}
+.item_1 {
+    animation-name: example;
+
+}
+
+@keyframes example {
+    0%, 100% {top: 0px;}
+    /* 20% {top: 50px;} */
+    30% {top: 100px;}
+}
+
+.item_2 {
+    animation-name: example2;
+
+
+}
+@keyframes example2 {
+    0%, 100% {top: 100px;}
+    40% {top: 0px;}
+}
+.item_3 {
+    animation-name: example3;
+
+}
+@keyframes example3 {
+    0%, 100% {top: 100px;}
+    50% {top: 0px;}
+}
+.item_4 {
+    animation-name: example4;
+
+
+}
+
+@keyframes example4 {
+    0%, 100% {top: 0px;}
+    60% {top: 100px;}
+}
+.item_5 {
+    animation-name: example5;
+
+
+}
+
+@keyframes example5 {
+    0%, 100% {top: 100px;}
+    70% {top: 0px;}
+}
+
+.item_6{
+    position: relative;
+    animation-name: example6;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example6 {
+    0%, 100% {top: 0px;}
+    70% {top: 150px;}
+}
+.item_7{
+    position: relative;
+    animation-name: example7;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example7 {
+    0%, 100% {top: 150px;}
+    80% {top: 0px;}
+}
+.item_8{
+    position: relative;
+    animation-name: example8;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example8 {
+    0%, 100% {top: 0px;}
+    35% {top: 150px;}
+}
+.item_9{
+    position: relative;
+    animation-name: example9;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example9 {
+    0%, 100% {top: 150px;}
+    10% {top: 0px;}
+}
+
+.item_10{
+    position: relative;
+    animation-name: example10;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example10 {
+    0%, 100% {top: 150px;}
+    50% {top: 0px;}
+}

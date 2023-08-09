@@ -104,6 +104,28 @@
     height: auto;
 }
 
+.item{
+    margin: 10px;
+    border-radius: 90%;
+    width: 45px!important;
+    height: 45px!important;
+    position: relative;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 
+}
+.item img{
+    width: 100%;
+    height: 100%
+    
+}
 
+.project-container-tittle{
+    padding-top: 50px!important;
+    color: white;
+}
+
+}
+.project-container-tittle{
+    display: none;
 }
