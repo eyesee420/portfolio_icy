@@ -1,0 +1,109 @@
+@media (max-width: 600px) {
+    .project-container{
+   
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+    
+
+    }
+
+    .display-project{
+        height: 400px!important;
+        margin-left: 26px!important;
+    }
+
+    .project-image{
+        height: 250px!important;
+    }
+    .slick-arrow{
+        display: none!important;
+    }
+}
+
+@media (max-width: 480px) {
+
+    ::-webkit-scrollbar{
+        width: 2px!important;
+    }
+.body-1 {
+    height: 270vh;
+}
+
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%!important;
+}
+
+.img-container {
+
+    height: 80%!important;
+    margin: 50px 15px 0px 15px!important;
+}
+.home-container-2{
+    margin-top: 20px;
+}
+.intro-container {
+    width: 100%!important;
+    height: 80%!important;
+
+}
+.intro-container h1 {
+    font-size: 24px!important;
+}
+.intro-container p {
+    font-size: 18px!important;
+    margin-top: 25px!important;
+}
+.about-container{
+    height: 100%!important;
+    display: flex!important;
+    flex-direction: column;
+
+}
+
+.skills-container{
+    margin-right: 10px;
+    /* display: none; */
+}
+
+.info-container{
+    height: 500px!important;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.contact-form {
+    height: 80%!important;
+    padding-bottom: 20px;
+
+}
+.form-card {
+    height: 350px!important;
+}
+.contact-form h1 {
+    font-size: 16px;
+}
+.form textarea {
+    height: 50px;
+}
+
+
+.contact-social h1 {
+    font-size: 16px;
+}
+.social-img {
+    width: 45px!important;
+    height: auto;
+}
+
+
+
+}

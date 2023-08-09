@@ -1,0 +1,156 @@
+
+
+::-webkit-scrollbar{
+    width: 6px;
+
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--my-white);
+    border-radius: 3px;
+
+}
+::-webkit-scrollbar-button{
+    color: var(--my-white);
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background: var(--header-color);
+    box-shadow: 1px 1px 15px white;
+
+}
+
+.nav-center{
+
+}
+.nav-center a{
+    text-decoration: none;
+    padding: 9px 20px 8px 20px;
+    color: var(--my-white);
+    
+}
+.active-nav{
+    background-color: aliceblue;
+    color: var(--header-color)!important;
+    /* font-weight: bolder; */
+    opacity: .8;
+    border-radius: 2px;
+}
+
+.nav-center a:hover{
+
+    background-color: aliceblue;
+    color: var(--header-color);
+    font-weight: bolder;
+}
+
+
+.logo{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: var(--my-white);
+    font-weight: bold;
+    cursor: context-menu;
+    text-decoration: none;
+    cursor: pointer;
+ 
+}
+.settings-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.settings-container:hover{
+    cursor: pointer;
+}
+.settings-container p{
+    margin-right: .5rem!important;
+    font-size: .8rem;
+    color: var(--my-white);
+}
+.settings-container a{
+    margin-right: .5rem!important;
+    font-size: .8rem;
+    color: var(--my-white);
+    text-decoration: none;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    color: var(--my-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+@media (max-width: 1000px) {
+    .active-nav{
+        background-color: var(--header-color)!important;
+        color: aliceblue!important;
+        /* font-weight: bolder;
+        border-radius: 2px; */
+    }
+}
+
+@media (max-width: 500px) {
+    .settings-container p {
+        display: none;
+         }
+    footer{
+        display: none;
+         }
+    .logo{
+        font-size: 1.2rem;
+        }   
+}
+
+/* Your existing styles here */
+
+/* Add mobile menu styles */
+.menu-icon {
+    display: none; /* Hide the menu icon by default on larger screens */
+}
+
+@media (max-width: 600px) {
+    /* Styles for screens up to 768px wide (adjust this breakpoint as needed) */
+    .nav-center {
+        display: none; /* Hide the regular navigation on smaller screens */
+        flex-direction: column; /* Display links in a column */
+        align-items: center; /* Center align links */
+        position: absolute;
+        /* background-color: white; */
+        width: 100%;
+        top: 60px; /* Adjust as needed */
+        left: 0;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .menu-icon {
+        display: block; /* Hide the menu icon by default on larger screens */
+    }
+
+    .nav-center.active {
+        display: flex; /* Show the navigation when menu icon is clicked */
+    }
+
+    .nav-center a {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+}

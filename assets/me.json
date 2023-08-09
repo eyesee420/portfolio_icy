@@ -1,0 +1,14 @@
+{
+    "myData": [
+        {
+            "name": "John",
+            "age": 25,
+            "city": "New York"
+        },
+        {
+            "name": "Jane",
+            "age": 30,
+            "city": "San Francisco"
+        }
+    ]
+}

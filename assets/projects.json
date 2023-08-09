@@ -1,0 +1,57 @@
+{
+    "data": 
+        [  {
+            "id": "icy5",
+            "project_name": "Sad Beshy Ai",
+            "description":"I made this website to make my beshy happy, using openai api and react.js",
+            "date":"july 2023",
+            "link": "https://github.com/eyesee420",
+            "image":"img_projects/sab-beshy.png",
+            "preview":"https://sad-beshy-ai.vercel.app/"
+            },
+            {
+            "id": "icy6",
+            "project_name": "Time Management System",
+            "description":"simple time management system built with Next.js and mongoDB i also added local storage to automaticaly cached data",
+            "date":"jun 2023",
+            "link": "https://github.com/eyesee420",
+            "image":"img_projects/time_management.png",
+            "preview":"https://time-management-exam-i9v8.vercel.app/"
+            },
+            {
+            "id": "icy1",
+            "project_name": "Laundry hub",
+            "description":"Thesis Project about laundry shops that we convert into online store with realtime process",
+            "link": "https://github.com/eyesee420",
+            "image":"img_projects/img1.jpg"
+            },
+            {
+            "id": "icy2",
+            "project_name": "Fitness Application",
+            "description":"Application provide health informations and track daily performance",
+            "date":"nov 22 2022",
+            "link": "https://github.com/eyesee420",
+            "image":"img_projects/img2.jpg"
+            },
+            {
+            "id": "icy3",
+            "project_name": "Event Reservation System",
+            "description":"Provide online reservation for events and sport events realtime can see updated news powered by firebase ",
+            "date":"nov 22 2022",
+            "link": "https://github.com/eyesee420",
+            "image":"img_projects/img3.jpg"
+            },
+            {
+            "id": "icy4",
+            "project_name": "Task Application",
+            "description":"Manage tasks and be notified about your task ",
+            "date":"nov 22 2022",
+            "link": "https://github.com/eyesee420",
+            "image":"img_projects/img4.jpg"
+            }
+          
+         
+
+
+    ]
+}

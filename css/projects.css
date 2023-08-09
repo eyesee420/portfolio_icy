@@ -1,0 +1,133 @@
+
+.project-container-1{
+
+    width: 90%;
+    height: 90%;
+
+    position: relative;
+    z-index: 2;
+    
+}
+.display-project{
+    height: 100vh;
+    width: 100vw;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    /* background-color: #eee; */
+}
+
+
+.display-project-images{
+    width: 100%;
+    height: 80%;
+
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover-raduis{
+    width: 90%;
+    height: 90%;
+    /* border-radius: 20px; */
+    /* border: 1px solid white;  */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fit-images{
+    width: 100%;
+    height: 400px;
+
+}
+
+.fit-images img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+
+}
+
+.display-all-discriptions{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover-raduis-2{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-project-discriptions{
+    border: 1px solid white;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+  
+}
+.display-discriptions{
+    height: 300px;
+    /* border: 1px solid white; */
+}
+.display-discriptions h1{
+  margin-bottom: 20px;
+  color: var(--my-white);
+}
+.display-discriptions p{
+    margin-bottom: 20px;
+    color: var(--my-white);
+}
+.display-links{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #eee;
+
+}
+.links-button{
+    width: 300px;
+    height: 30px;
+}
+
+/* @media (max-width: 1000px) {
+    .project-container{
+        height: 100vh!important;
+        width: 100vw!important;
+    }
+    .project-container-1{
+        height: 100vh!important;
+        width: 100vw!important;
+
+    }
+
+
+} */
+
+
+@media (max-width: 600px) { .display-project { display: block; }
+
+.display-project-images { width: 80%; margin: 10px auto; }
+
+.cover-raduis { width: 80%; }
+
+.display-all-discriptions { width: 80%; margin: 10px auto; }
+
+.cover-raduis-2 { width: 80%; }
+
+.display-project-discriptions { width: 80%; padding: 5px; }
+
+.display-discriptions h1 { font-size: 20px; margin-bottom: 10px; }
+
+.display-discriptions p { font-size: 16px; margin-bottom: 10px; }
+
+.links-button { width: 200px; height: 25px; } }

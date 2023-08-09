@@ -1,0 +1,107 @@
+@media (max-width: 1000px) {
+
+ 
+    body{
+
+        overflow: scroll!important;
+        overflow-x: hidden!important;
+
+    }
+    .parent-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .body-1{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        
+      
+      }
+      .body-2{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+      }
+ 
+    
+    #home{
+        display: flex;
+    }
+    .intro-container h1{
+        font-size: 30px!important;
+     
+    }
+    .intro-container p{
+        font-size: 20px!important;
+     
+    }
+    #about{
+        display: flex;
+    }
+    .skills-container{
+        width: 100%!important;
+
+    }
+    .info-container{
+        width: 90%!important;
+    }
+    .info-container h1{
+        font-size: 16px!important;
+    }
+    .info-container >p{
+        font-size: 14px!important;
+    }
+
+
+    .display-project{
+        margin-left: 80px!important;
+    }
+
+
+    #contact{
+        display: flex!important;
+
+
+    }
+    .contact-container{
+        /* display: flex!important;
+        flex-direction: column!important;
+        height: 100%; */
+    }
+    .contact-social{
+        height: auto!important;
+        width: 90%!important;
+    }
+    .contact-form{
+        width: 90%!important;
+        /* margin-right: 20px!important; */
+    }
+    .form-card{
+        width: 100%!important;
+
+    }
+    #particles-js{
+        position: absolute;
+        width: 100%;
+        height: 100%!important;
+        z-index: 1;
+    
+    }
+    #particles-js-1{
+        position: absolute;
+        width: 100%;
+        height: 200%!important;
+        z-index: 1;
+    
+    }
+    footer{
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .display-project{
+        margin-left: 200px!important;
+    }
+}
