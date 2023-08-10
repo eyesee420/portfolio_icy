@@ -120,12 +120,14 @@
     
 }
 
-.project-container-tittle{
+.project-container-tittle h1{
     padding-top: 50px!important;
     color: white;
+    visibility: visible;
 }
 
 }
-.project-container-tittle{
-    display: none;
+
+.project-container-tittle {
+    visibility: hidden;
 }
