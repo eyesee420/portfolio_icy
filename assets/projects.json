@@ -19,6 +19,13 @@
             "preview":"https://time-management-exam-i9v8.vercel.app/"
             },
             {
+            "id": "icy7",
+            "project_name": "Pokemon Gallery",
+            "description":"website displaying pokemon gallery information using next.js and chakraUI fetching datas from pokeapi ",
+            "link": "https://github.com/eyesee420",
+            "image":"img_projects/pokemon.png"
+            },
+            {
             "id": "icy1",
             "project_name": "Laundry hub",
             "description":"Thesis Project about laundry shops that we convert into online store with realtime process",
